@@ -24,7 +24,7 @@
 2. Schemeに `RiverLab`、実行先にiPhoneシミュレーターを選びます。
 3. Run（⌘R）で起動します。
 
-実機では `Signing & Capabilities` のTeamに自分のApple開発用アカウントを設定し、接続したiPhoneを選んでRunしてください。プロジェクトには開発チームを固定していません。2026-09-12に既存の開発用署名をビルド時に指定し、接続中のiPhone 17（iOS 26.6）へのビルド・インストール・起動を確認しました。TestFlight・App Storeへの配布は未実施です。
+実機では `Signing & Capabilities` のTeamに自分のApple開発用アカウントを設定し、接続したiPhoneを選んでRunしてください。プロジェクトには開発チームを固定していません。署名付き実機ビルド・インストール・起動を確認済みです。TestFlight・App Storeへの配布は未実施です。
 
 依存パッケージはありません。Xcode 26.3 / iPhone 17 Pro（iOS 26.3）で開発・検証しています。
 

@@ -15,9 +15,9 @@ UI結果：`Artifacts/VerifiedUITests.xcresult`。画面：`Artifacts/home.png`�
 
 ## 実機導入
 
-2026-09-12、接続中のiPhone 17（iOS 26.6、開発者モード有効）へDebugビルドを導入。
+2026-09-12、実機へのDebugビルド・インストール・起動を確認。
 
-- 既存のApple Development署名とAutomatic provisioningで実機ビルド成功。
+- Apple Development署名とAutomatic provisioningで実機ビルド成功。
 - `devicectl device install app` で `jp.adachi.riverlab` のインストール成功。
 - `devicectl device process launch` で起動成功。
 - 実機ビルドログ：`Artifacts/device-build.log`。
